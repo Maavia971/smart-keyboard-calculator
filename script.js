@@ -1,4 +1,5 @@
 const result =document.getElementById("result");
+result.value = "";
 const buttons = document.querySelectorAll(".btn");
 const operators = ["+", "-", "*", "%", "/", "."];
 
@@ -26,7 +27,7 @@ document.addEventListener("keydown",(e) => {
         const lastChar = result.value.slice(-1);
 
         // prevent typing digits after result 
-        if(calculated && / \d/.test(key)) return;
+        if(calculated && /\d/.test(key)) return;
 
         // Prevent double operators except minus (-)
     if(operators.includes(key) && operators.includes(lastChar)) {

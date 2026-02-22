@@ -36,11 +36,15 @@ Perfect for desktop and mobile, designed with a **clean, professional, and user-
 
 ---
 
+🌐 Live Demo:
+[ https://maavia971.github.io/smart-keyboard-calculator/]
+
+---
+
 ## 👩‍💻 Author
 
 **Maavia Gulshan**  
 - Frontend Developer (Portfolio Project)  
 - Always building **clean, user-friendly, and responsive web applications**  
-
 
 
